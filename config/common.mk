@@ -7,6 +7,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 PRODUCT_PACKAGES += \
     KeyboardNoNavigationBarOverlay \
+    Launcher3NoHintOverlay \
     NavigationBarNoHintOverlay
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
